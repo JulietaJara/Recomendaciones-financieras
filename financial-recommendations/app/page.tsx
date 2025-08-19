@@ -4,6 +4,7 @@ import { RecommendationsSection } from "@/components/dashboard/recommendations-s
 import { RiskAnalysis } from "@/components/dashboard/risk-analysis"
 import { RecentTransactions } from "@/components/dashboard/recent-transactions"
 import { ProtectedRoute } from "@/components/auth/protected-route"
+import '@/styles/globals.css';
 
 export default function DashboardPage() {
   return (
